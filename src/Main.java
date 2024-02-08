@@ -13,6 +13,11 @@ public class Main {
 
         double kdv_tutar = tutar*kdv_oran;
 
-        System.out.println(kdv_tutar);
+        System.out.println("kdv tutarı: "+kdv_tutar);
+
+        double kdvli_tutar = tutar + kdv_tutar;
+
+        System.out.println("toplam tutar: " +kdvli_tutar);
+
     }
 }
